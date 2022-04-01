@@ -4,7 +4,8 @@ let eraser = document.querySelector("#eraser");
 let rect = document.querySelector("#rect");
 let line = document.querySelector("#line");
 let options = document.querySelectorAll(".size-box");
-// identify -> click  -> again click
+
+  
 pencil.addEventListener("click", function (e) {
     if (cTool == "pencil") {
         // second click
